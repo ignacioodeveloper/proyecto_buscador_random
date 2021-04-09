@@ -22,11 +22,13 @@ function traer() {
         <img src="${data.results['0'].picture.large}"
         width= "100px" class="img-fluid rounded" >
         
-        <h1>Nombre: ${data.results['0'].name.first}</h1>
-        <h1>Apellido: ${data.results['0'].name.last}</h1>
+        <p>Nombre: ${data.results['0'].name.first}</p>
+        <p>Apellido: ${data.results['0'].name.last}</p>
+        <p>Email: ${data.results['0'].email}</p>
 
-        <h1>Direccion: ${data.results['0'].location.street.name}  ${data.results['0'].location.street.number}</h1>
 
+        <p>Direccion: ${data.results['0'].location.street.name}  ${data.results['0'].location.street.number}</p>
+        
         `
         
 
